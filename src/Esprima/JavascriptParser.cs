@@ -14,7 +14,9 @@ namespace Esprima
             "<<=", ">>=", ">>>=", "&=", "^=", "|="
         };
 
-        private sealed class Context
+        private static readonly string[] LetOrConst = new[] { "const", "let" };
+
+    private sealed class Context
         {
             public bool IsModule;
             public bool AllowIn;
@@ -310,7 +312,7 @@ namespace Esprima
 
             _lookahead = next;
 
-            if (_lookahead.Type == TokenType.Keyword && new[] { "const", "let" }.Contains(_lookahead.Value))
+            if (_lookahead.Type == TokenType.Keyword && LetOrConst.Contains(_lookahead.Value))
             {
                 _lookahead.Value = "var";
             }
