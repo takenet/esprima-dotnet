@@ -12,7 +12,7 @@
     <PackageTags>javascript, parser</PackageTags>
     <PackageProjectUrl>https://github.com/takenet/esprima-dotnet</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/takenet/esprima-dotnet/master/LICENSE.txt</PackageLicenseUrl>
-    <Version>1.0.1271</Version>
+    <Version>1.0.1270-1</Version>
     <LangVersion>latest</LangVersion>
 
     <!-- SourceLink support -->
