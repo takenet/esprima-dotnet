@@ -11,8 +11,8 @@
     <PackageId>Take.Esprima.Unnoficial</PackageId>
     <PackageTags>javascript, parser</PackageTags>
     <PackageProjectUrl>https://github.com/takenet/esprima-dotnet</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/takenet/esprima-dotnet/master/LICENSE.txt</PackageLicenseUrl>
-    <Version>1.0.1270-1</Version>
+    <License>https://raw.githubusercontent.com/takenet/esprima-dotnet/master/LICENSE.txt</License>
+    <Version>1.0.1271.001</Version>
     <LangVersion>latest</LangVersion>
 
     <!-- SourceLink support -->
