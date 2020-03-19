@@ -1,20 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>Standard-compliant ECMAScript 2016 parser (also popularly known as JavaScript or ES6).</Description>
-    <Copyright>Sebastien Ros</Copyright>
-    <AssemblyName>Esprima</AssemblyName>
-    <AssemblyTitle>Esprima .NET</AssemblyTitle>
+    <AssemblyName>Take.Esprima.Unnoficial</AssemblyName>
+    <AssemblyTitle>Esprima .NET Unnoficial</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
-    <Authors>Sebastien Ros</Authors>
+    <Authors>Take, Sebastien Ros</Authors>
     <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
     <AssemblyOriginatorKeyFile>../Esprima.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
-    <PackageId>Esprima</PackageId>
+    <PackageId>Take.Esprima.Unnoficial</PackageId>
     <PackageTags>javascript, parser</PackageTags>
-    <PackageProjectUrl>https://github.com/sebastienros/esprima-dotnet</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/sebastienros/esprima-dotnet/master/LICENSE.txt</PackageLicenseUrl>
-    <Version>1.0.$(BuildNumber)</Version>
+    <PackageProjectUrl>https://github.com/takenet/esprima-dotnet</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/takenet/esprima-dotnet/master/LICENSE.txt</PackageLicenseUrl>
+    <Version>1.0.1271</Version>
     <LangVersion>latest</LangVersion>
 
     <!-- SourceLink support -->
