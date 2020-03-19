@@ -16,7 +16,7 @@ namespace Esprima
 
         private static readonly string[] LetOrConst = new[] { "const", "let" };
 
-    private sealed class Context
+        private sealed class Context
         {
             public bool IsModule;
             public bool AllowIn;
