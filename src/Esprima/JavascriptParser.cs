@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using Esprima.Ast;
 
@@ -308,6 +309,11 @@ namespace Esprima
             }
 
             _lookahead = next;
+
+            if (_lookahead.Type == TokenType.Keyword && new[] { "const", "let" }.Contains(_lookahead.Value))
+            {
+                _lookahead.Value = "var";
+            }
 
             if (_config.Tokens && next.Type != TokenType.EOF)
             {
